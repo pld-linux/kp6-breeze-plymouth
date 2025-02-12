@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeplasmaver	6.2.5
+%define		kdeplasmaver	6.3.0
 %define		qtver		5.15.2
 %define		kpname		breeze-plymouth
 
 Summary:	breeze-plymouth
 Name:		kp6-%{kpname}
-Version:	6.2.5
+Version:	6.3.0
 Release:	1
 License:	LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/plasma/%{kdeplasmaver}/%{kpname}-%{version}.tar.xz
-# Source0-md5:	954ca8ca792fd7cb59b2da4704d587f6
+# Source0-md5:	655fce08f9be7fb9e0aedb06dcba5386
 URL:		http://www.kde.org/
 BuildRequires:	cmake >= 3.16.0
 BuildRequires:	kf6-extra-cmake-modules >= 1.8.0
