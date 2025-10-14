@@ -8,7 +8,7 @@
 Summary:	breeze-plymouth
 Name:		kp6-%{kpname}
 Version:	6.4.5
-Release:	1
+Release:	2
 License:	LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/plasma/%{kdeplasmaver}/%{kpname}-%{version}.tar.xz
@@ -20,7 +20,6 @@ BuildRequires:	ninja
 BuildRequires:	plymouth-devel
 BuildRequires:	rpmbuild(macros) >= 1.164
 BuildRequires:	xz
-%requires_eq_to Qt6Core Qt6Core-devel
 Obsoletes:	kp5-%{kpname} < 6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
