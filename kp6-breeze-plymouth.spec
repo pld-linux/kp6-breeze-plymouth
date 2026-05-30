@@ -28,6 +28,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 breeze-plymouth.
 
+%description -l pl.UTF-8
+Temat breeze dla plymouth.
+
 %prep
 %setup -q -n %{kpname}-%{version}
 
